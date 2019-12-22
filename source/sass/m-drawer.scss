@@ -1,0 +1,26 @@
+.m-drawer__content {
+  width: 100%;
+}
+
+.m-drawer__content-toggle {
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+  position: relative;
+
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.m-drawer__icon {
+  position: absolute;
+  top: 40%;
+  right: 24px;
+}

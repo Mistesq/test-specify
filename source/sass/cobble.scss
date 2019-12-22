@@ -1,0 +1,13 @@
+.cobble {
+  margin-top: 24px;
+  padding: 24px 40px;
+  background-color: gray;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.cobble__list {
+  margin-top: 40px;
+}

@@ -1,0 +1,27 @@
+.site-list {
+  @include reset-list;
+}
+
+.site-list__item {
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+}
+
+.site-list__item--no-border {
+  border: none;
+}
+
+.site-list__link {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.site-list__link-img {
+  width: 40px;
+  height: 40px;
+}
+
+.site-list__link-text {
+  margin-left: 16px;
+}

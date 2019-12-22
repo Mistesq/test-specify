@@ -1,0 +1,19 @@
+.object-list {
+  @include reset-list;
+
+}
+
+.object-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.object-list__title {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.object-list__text {
+  color: rgba(20, 20, 20, 0.64);
+}

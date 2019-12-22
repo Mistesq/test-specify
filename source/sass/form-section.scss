@@ -1,0 +1,41 @@
+.form-section {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.form-section__subtitle {
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(20, 20, 20, 0.64);
+}
+
+.form-section--head .form-section__title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+
+@media (min-width: $tablet-width) {
+
+  .form-section {
+    padding: 0 64px;
+  }
+
+  .form-section__subtitle {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .form-section--head .form-section__title {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  .form-section--head .form-section__subtitle {
+    max-width: 920px;
+  }
+}

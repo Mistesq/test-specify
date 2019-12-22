@@ -1,0 +1,15 @@
+.page-footer {
+  width: 100%;
+  padding: 48px 64px;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.page-footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
