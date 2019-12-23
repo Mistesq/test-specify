@@ -1,10 +1,15 @@
 .form-section {
-  padding: 0 24px;
+  padding-top: 32px;
+  padding-bottom: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   text-align: center;
+}
+
+.form-section__main-content {
+  padding: 0 24px;
 }
 
 .form-section__subtitle {
@@ -18,6 +23,18 @@
   line-height: 36px;
 }
 
+.form-section__visual-wrapper {
+  margin-top: 40px;
+  padding-bottom: 24px;
+  width: 100%;
+
+  position: relative;
+}
+
+.form-section--gray {
+  padding-top: 56px;
+  background-color: $gray;
+}
 
 @media (min-width: $tablet-width) {
 

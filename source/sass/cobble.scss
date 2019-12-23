@@ -1,7 +1,11 @@
 .cobble {
   margin-top: 24px;
   padding: 24px 40px;
-  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: $gray;
 
   &:first-child {
     margin-top: 0;

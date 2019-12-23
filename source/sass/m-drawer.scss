@@ -13,14 +13,36 @@
   box-sizing: border-box;
 
   position: relative;
+  z-index: 10;
 
   background-color: white;
   border: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid $gray-border;
 }
 
 .m-drawer__icon {
   position: absolute;
   top: 40%;
   right: 24px;
+}
+
+.m-drawer__link {
+  z-index: -3;
+
+}
+
+.m-drawer__text {
+  z-index: -3;
+}
+
+.m-drawer__text--bold {
+  font-weight: 600;
+}
+
+.opened .m-drawer__content {
+  display: block;
+}
+
+.closed .m-drawer__content {
+  display: none;
 }

@@ -1,0 +1,13 @@
+.social-network-list {
+  @include reset-list;
+
+  display: flex;
+}
+
+.social-network__item {
+  margin-left: 16px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  padding: 5px 24px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+  position: relative;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  background-color: $blue;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.07s linear;
+  cursor: pointer;
+}

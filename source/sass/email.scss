@@ -1,0 +1,40 @@
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  width: 100%;
+}
+
+.email__form {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+  position: relative;
+}
+
+.email__input {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  max-width: calc(100% - 100px);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 48px;
+
+  transform: translateX(39px);
+
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #fff;
+  border: 1px solid #e5e8eb;
+  border-radius: 30px;
+  color: rgba(20,20,20,.64);
+  box-sizing: border-box;
+}
+
+.email__submit {
+  flex-shrink: 0;
+}
