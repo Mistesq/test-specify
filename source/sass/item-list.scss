@@ -1,0 +1,5 @@
+.item-list {
+  @include reset-list;
+  display: flex;
+  flex-direction: column;
+}

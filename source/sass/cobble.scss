@@ -15,3 +15,32 @@
 .cobble__list {
   margin-top: 40px;
 }
+
+.cobble__title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (min-width: $tablet-width) {
+  .cobble {
+    padding: 88px 80px;
+  }
+  .cobble__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+}
+
+@media (min-width: 920px) {
+  .cobble {
+    margin-top: 0;
+    margin-left: 32px;
+    padding: 40px 24px;
+  }
+
+  .cobble__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

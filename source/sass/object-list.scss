@@ -17,3 +17,26 @@
 .object-list__text {
   color: rgba(20, 20, 20, 0.64);
 }
+
+@media (min-width: $tablet-width) {
+  .object-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .object-list__item {
+    width: 40%;
+  }
+
+  .object-list__title {
+    font-size: 38px;
+    line-height: 55px;
+  }
+
+  .object-list__text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

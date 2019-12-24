@@ -16,3 +16,17 @@
     margin-left: 0;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .icon-list__item svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 920px) {
+  .icon-list__item svg {
+    width: 40px;
+    height: 40px;
+  }
+}

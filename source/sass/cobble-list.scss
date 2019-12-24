@@ -5,3 +5,10 @@
   flex-direction: column;
   width: 100%;
 }
+
+@media (min-width: 920px) {
+  .cobble-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

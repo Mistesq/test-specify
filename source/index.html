@@ -21,13 +21,13 @@
         </a>
         <div class="logo__text">Coming 2019</div>
       </div>
-      <buttton class="page-header__menu-toggle">
+      <buttton class="page-header__menu-toggle page-header__menu-toggle--m">
         <span class="page-header__menu-toggle-text">Menu</span>
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down"><path d="M6 9l6 6 6-6"></path>
         </svg>
       </buttton>
 
-      <nav class="page-header__menu">
+      <nav class="page-header__menu page-header__menu--small">
         <ul class="page-header__site-list site-list">
           <li class="site-list__item site-list__item--no-border m-drawer">
 
@@ -44,7 +44,7 @@
                 <li class="site-list__item">
                   <a href="" class="site-list__link">
                     <div class="site-list__link-img">
-                      <img src="/img/visual-1.png" alt="">
+                      <img width="40" height="40" src="/img/visual-1.png" alt="">
                     </div>
                     <span class="site-list__link-text">Dynamic Libraries</span>
                   </a>
@@ -52,7 +52,7 @@
                 <li class="site-list__item">
                   <a href="" class="site-list__link">
                     <div class="site-list__link-img">
-                      <img src="/img/visual-2.png" alt="">
+                      <img width="40" height="40" src="/img/visual-2.png" alt="">
                     </div>
                     <span class="site-list__link-text">Continuous Delivery System</span>
                   </a>
@@ -60,7 +60,7 @@
                 <li class="site-list__item">
                   <a href="" class="site-list__link">
                     <div class="site-list__link-img">
-                      <img src="/img/visual-3.png" alt="">
+                      <img width="40" height="40" src="/img/visual-3.png" alt="">
                     </div>
                     <span class="site-list__link-text">Atomic Hand-off</span>
                   </a>
@@ -71,6 +71,49 @@
 
           <li class="site-list__item">
             <a href="" class="site-list__link">Community</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <nav class="page-header__menu page-header__menu--large">
+        <ul class="page-header__list ">
+          <li class="page-header__item page-header__menu-toggle page-header__item--has-menu">
+              Features
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </button>
+              <ul class="page-header__item-menu site-list">
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="/img/visual-1.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Dynamic Libraries</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="/img/visual-2.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Continuous Delivery System</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="/img/visual-3.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Atomic Hand-off</span>
+                  </a>
+                </li>
+              </ul>
+          </li>
+
+          <li class="page-header__item">
+            <a href="page-header__link" class="">Community</a>
           </li>
         </ul>
       </nav>
@@ -90,7 +133,8 @@
             <label for="4" class="visually-hidden">Your email</label>
             <input id="1" placeholder="Your email" type="email" class="email__input">
             <button class="email__submit button">
-              <span class="email__text">Sign up</span>
+              <span class="email__text email__text--small">Sign up</span>
+              <span class="email__text email__text--large">Get early access</span>
             </button>
             <!-- <button class="email__submit button">
             <span class="email__submit__text-large">Get early access</span>
@@ -112,7 +156,7 @@
         Specify provides all the tools needed to be ready to build the next generation of products software.
       </p>
 
-      <div class="main-section__feature-list feature-list">
+      <div class="main-section__list feature-list">
         <div class="feature-list__item">
           <svg width="16" height="16" viewBox="0 0 40 50" id="apple"><path d="M10.237 48.635A10.876 10.876 0 0 1 7.73 46.3a31.323 31.323 0 0 1-2.146-2.953 28.657 28.657 0 0 1-3.59-7.386C.985 32.909.495 29.988.495 27.13c0-3.19.685-5.973 2.02-8.309A11.705 11.705 0 0 1 6.75 14.39a11.234 11.234 0 0 1 5.728-1.706c.706 0 1.472.101 2.279.304.585.163 1.29.427 2.158.752 1.109.427 1.714.69 1.916.752.645.243 1.19.345 1.613.345.323 0 .787-.102 1.3-.264.293-.102.848-.285 1.634-.63.779-.284 1.396-.528 1.886-.71.746-.224 1.468-.427 2.118-.529a9.924 9.924 0 0 1 2.315-.102 13.65 13.65 0 0 1 3.912.854c2.057.832 3.717 2.133 4.955 3.981a9.933 9.933 0 0 0-1.462 1.117 12.42 12.42 0 0 0-2.48 3.057 10.418 10.418 0 0 0-1.3 5.12c.031 2.2.586 4.133 1.695 5.809.78 1.219 1.823 2.263 3.094 3.12.625.427 1.173.721 1.694.914a25.87 25.87 0 0 1-.817 2.235 28.89 28.89 0 0 1-2.521 4.692c-.871 1.28-1.557 2.235-2.077 2.864-.811.975-1.594 1.707-2.38 2.229a5.27 5.27 0 0 1-2.928.885 6.449 6.449 0 0 1-2.086-.258 20.12 20.12 0 0 1-1.726-.656 13.934 13.934 0 0 0-1.825-.69 9.052 9.052 0 0 0-2.348-.299c-.806 0-1.593.102-2.339.295-.625.178-1.23.398-1.83.66-.846.355-1.4.589-1.723.69a8.958 8.958 0 0 1-1.997.356c-1.049 0-2.025-.305-2.997-.914l.026-.027zM24.06 11.137c-1.371.69-2.674.983-3.979.886-.202-1.313 0-2.662.545-4.138.484-1.26 1.129-2.397 2.016-3.413a10.918 10.918 0 0 1 3.288-2.56C27.26 1.223 28.53.857 29.74.796c.161 1.382 0 2.743-.504 4.205a12.085 12.085 0 0 1-2.017 3.575 10.186 10.186 0 0 1-3.198 2.56l.038.002z" fill="#000" fill-rule="nonzero"></path>
           </svg>
@@ -134,55 +178,68 @@
           </svg>
         </div>
         <div class="feature-list__item">
-          <svg width="16" height="16" viewBox="0 0 34 50" id="figma"><g fill-rule="nonzero" fill="none"><path d="M8.377 49.756c4.625 0 8.378-3.715 8.378-8.293v-8.292H8.377C3.753 33.17 0 36.886 0 41.463c0 4.578 3.753 8.293 8.377 8.293z" fill="#0ACF83"></path><path d="M0 24.878c0-4.578 3.753-8.293 8.377-8.293h8.378v16.586H8.377C3.753 33.17 0 29.456 0 24.878z" fill="#A259FF"></path><path d="M0 8.293C0 3.715 3.753 0 8.377 0h8.378v16.585H8.377C3.753 16.585 0 12.87 0 8.293z" fill="#F24E1E"></path><path d="M16.755 0h8.377c4.624 0 8.377 3.715 8.377 8.293 0 4.577-3.753 8.292-8.377 8.292h-8.377V0z" fill="#FF7262"></path><path d="M33.51 24.878c0 4.578-3.754 8.293-8.378 8.293-4.624 0-8.377-3.715-8.377-8.293 0-4.578 3.753-8.293 8.377-8.293 4.624 0 8.377 3.715 8.377 8.293z" fill="#1ABCFE"></path></g>
+          <svg class="is-monochromatic" width="16" height="16" viewBox="0 0 34 50" id="figma"><g fill-rule="nonzero" fill="none"><path d="M8.377 49.756c4.625 0 8.378-3.715 8.378-8.293v-8.292H8.377C3.753 33.17 0 36.886 0 41.463c0 4.578 3.753 8.293 8.377 8.293z" fill="#0ACF83"></path><path d="M0 24.878c0-4.578 3.753-8.293 8.377-8.293h8.378v16.586H8.377C3.753 33.17 0 29.456 0 24.878z" fill="#A259FF"></path><path d="M0 8.293C0 3.715 3.753 0 8.377 0h8.378v16.585H8.377C3.753 16.585 0 12.87 0 8.293z" fill="#F24E1E"></path><path d="M16.755 0h8.377c4.624 0 8.377 3.715 8.377 8.293 0 4.577-3.753 8.292-8.377 8.292h-8.377V0z" fill="#FF7262"></path><path d="M33.51 24.878c0 4.578-3.754 8.293-8.378 8.293-4.624 0-8.377-3.715-8.377-8.293 0-4.578 3.753-8.293 8.377-8.293 4.624 0 8.377 3.715 8.377 8.293z" fill="#1ABCFE"></path></g>
           </svg>
         </div>
         <div class="feature-list__item">
-          <svg width="16" height="16" viewBox="0 0 50 49" id="adobe-xd"><g fill-rule="nonzero" fill="none"><path d="M40.945 48.761H8.811C3.939 48.761 0 44.801 0 39.905V8.856C0 3.96 3.939 0 8.811 0h32.134c4.872 0 8.811 3.96 8.811 8.856v31.049c0 4.897-3.939 8.856-8.81 8.856z" fill="#FF26BE"></path><path d="M40.23 46.77H9.547c-4.164 0-7.557-3.41-7.557-7.595V9.586c0-4.185 3.393-7.596 7.557-7.596h30.662c4.184 0 7.557 3.411 7.557 7.596v29.568c.02 4.206-3.373 7.617-7.536 7.617z" fill="#2E001F"></path><path d="M19.498 22.946l5.892 11.256c.105.167.042.334-.126.334h-3.662c-.231 0-.337-.063-.442-.272-1.347-2.761-2.715-5.523-4.124-8.494h-.043a313.886 313.886 0 0 1-3.998 8.515c-.105.168-.21.23-.379.23H9.144c-.21 0-.231-.167-.126-.293l5.766-10.92-5.577-11.047c-.126-.167 0-.293.127-.293h3.62c.21 0 .294.042.378.23a433.42 433.42 0 0 1 3.935 8.39h.042c1.22-2.762 2.567-5.628 3.872-8.369.105-.167.169-.272.379-.272h3.388c.168 0 .231.126.126.293l-5.576 10.712zm6.923 3.41c0-4.875 3.262-8.682 8.439-8.682.442 0 .673 0 1.094.042v-5.544a.21.21 0 0 1 .21-.21h3.325c.169 0 .21.063.21.168v19.205c0 .565 0 1.277.106 2.05 0 .126-.042.168-.168.23a12.596 12.596 0 0 1-5.388 1.214c-4.566.021-7.828-2.782-7.828-8.473zM35.954 21c-.295-.125-.716-.209-1.22-.209-2.652 0-4.504 2.03-4.504 5.398 0 3.85 1.894 5.397 4.272 5.397.505 0 1.052-.062 1.452-.23V21z" fill="#FFD9F2"></path></g>
+          <svg class="is-monochromatic" width="16" height="16" viewBox="0 0 50 49" id="adobe-xd"><g fill-rule="nonzero" fill="none"><path d="M40.945 48.761H8.811C3.939 48.761 0 44.801 0 39.905V8.856C0 3.96 3.939 0 8.811 0h32.134c4.872 0 8.811 3.96 8.811 8.856v31.049c0 4.897-3.939 8.856-8.81 8.856z" fill="#FF26BE"></path><path d="M40.23 46.77H9.547c-4.164 0-7.557-3.41-7.557-7.595V9.586c0-4.185 3.393-7.596 7.557-7.596h30.662c4.184 0 7.557 3.411 7.557 7.596v29.568c.02 4.206-3.373 7.617-7.536 7.617z" fill="#2E001F"></path><path d="M19.498 22.946l5.892 11.256c.105.167.042.334-.126.334h-3.662c-.231 0-.337-.063-.442-.272-1.347-2.761-2.715-5.523-4.124-8.494h-.043a313.886 313.886 0 0 1-3.998 8.515c-.105.168-.21.23-.379.23H9.144c-.21 0-.231-.167-.126-.293l5.766-10.92-5.577-11.047c-.126-.167 0-.293.127-.293h3.62c.21 0 .294.042.378.23a433.42 433.42 0 0 1 3.935 8.39h.042c1.22-2.762 2.567-5.628 3.872-8.369.105-.167.169-.272.379-.272h3.388c.168 0 .231.126.126.293l-5.576 10.712zm6.923 3.41c0-4.875 3.262-8.682 8.439-8.682.442 0 .673 0 1.094.042v-5.544a.21.21 0 0 1 .21-.21h3.325c.169 0 .21.063.21.168v19.205c0 .565 0 1.277.106 2.05 0 .126-.042.168-.168.23a12.596 12.596 0 0 1-5.388 1.214c-4.566.021-7.828-2.782-7.828-8.473zM35.954 21c-.295-.125-.716-.209-1.22-.209-2.652 0-4.504 2.03-4.504 5.398 0 3.85 1.894 5.397 4.272 5.397.505 0 1.052-.062 1.452-.23V21z" fill="#FFD9F2"></path></g>
           </svg>
         </div>
         <div class="feature-list__item">
-          <svg width="16" height="16" viewBox="0 0 50 50" id="windows"><path d="M0 7.15l20.213-2.796v19.593H0M22.7 4.041L49.755 0v23.634H22.7M0 26.122h20.213v19.593L0 42.913m22.7-16.791h27.056v23.634l-26.744-3.734" fill="#000" fill-rule="nonzero"></path>
+          <svg class="is-monochromatic" width="16" height="16" viewBox="0 0 50 50" id="windows"><path d="M0 7.15l20.213-2.796v19.593H0M22.7 4.041L49.755 0v23.634H22.7M0 26.122h20.213v19.593L0 42.913m22.7-16.791h27.056v23.634l-26.744-3.734" fill="#000" fill-rule="nonzero"></path>
           </svg>
         </div>
       </div>
-      <div class="main-section__feature-player feature-player">
+      <div class="main-section__list feature-player">
+        <div class="feature-player__visual">
+            <img src="/img/screen-1.png" alt="">
+        </div>
         <ul class="feature-player__feature-list fp-toggle-list">
+
           <li class="fp-toggle-list__item fp-toggle">
-            <div class="fp-toggle__visual">
-              <img src="/img/visual-1.png" alt="">
-            </div>
-            <div class="fp-toggle__body">
-              <h3 class="fp-toggle__title">Dynamic libraries <br> for styles and assets</h3>
-              <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
-              <div class="fp-toggle__feature-preview">
-                <img src="/img/screen-1.png" alt="">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="/img/visual-1.png" alt="">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">Dynamic libraries <br> for styles and assets</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+                <div class="fp-toggle__feature-preview">
+                  <img src="/img/screen-1.png" alt="">
+                </div>
               </div>
             </div>
+            <div class="fp-toggle__play-bar"></div>
           </li>
           <li class="fp-toggle-list__item fp-toggle">
-            <div class="fp-toggle__visual">
-              <img src="/img/visual-2.png" alt="">
-            </div>
-            <div class="fp-toggle__body">
-              <h3 class="fp-toggle__title">The new continuous <br> delivery system</h3>
-              <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
-              <div class="fp-toggle__feature-preview">
-                <img src="/img/screen-2.png" alt="">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="/img/visual-2.png" alt="">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">The new continuous <br> delivery system</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+                <div class="fp-toggle__feature-preview">
+                  <img src="/img/screen-2.png" alt="">
+                </div>
               </div>
             </div>
+            <div class="fp-toggle__play-bar"></div>
           </li>
           <li class="fp-toggle-list__item fp-toggle">
-            <div class="fp-toggle__visual">
-              <img src="/img/visual-3.png" alt="">
-            </div>
-            <div class="fp-toggle__body">
-              <h3 class="fp-toggle__title">Atomic hand-off &amp; component focused</h3>
-              <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
-              <div class="fp-toggle__feature-preview">
-                <img src="/img/screen-3.png" alt="">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="/img/visual-3.png" alt="">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">Atomic hand-off &amp; component focused</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+                <div class="fp-toggle__feature-preview">
+                  <img src="/img/screen-3.png" alt="">
+                </div>
               </div>
             </div>
+            <div class="fp-toggle__play-bar"></div>
           </li>
         </ul>
       </div>
@@ -227,7 +284,7 @@
             <img src="/img/feature-3.png" alt="">
           </div>
           <div class="object-list__body">
-            <h3 class="object-list__title">Brand consistency</h3>
+            <h3 class="object-list__title">Brand <br> consistency</h3>
 
             <p class="object-list__text">
               Specify helps you keep the same identity across all the platforms you use. Increase your incomes and speed-up your time to market.
@@ -257,7 +314,7 @@
         Specify can be plugged to several services from design to development. Allowing you to shape it to your own workflow.
       </p>
 
-      <ul class="main-secton__cobble-list cobble-list">
+      <ul class="main-section__list cobble-list">
         <li class="cobble-list__item cobble">
           <h3 class="cobble__title">Multi OS</h3>
           <ul class="cobble__list icon-list">
@@ -284,13 +341,13 @@
               </svg>
             </li>
             <li class="icon-list__item">
-              <svg width="16" height="16" viewBox="0 0 34 50" id="figma">
+              <svg class="is-monochromatic" width="16" height="16" viewBox="0 0 34 50" id="figma">
                 <g fill-rule="nonzero" fill="none"><path d="M8.377 49.756c4.625 0 8.378-3.715 8.378-8.293v-8.292H8.377C3.753 33.17 0 36.886 0 41.463c0 4.578 3.753 8.293 8.377 8.293z" fill="#0ACF83"></path><path d="M0 24.878c0-4.578 3.753-8.293 8.377-8.293h8.378v16.586H8.377C3.753 33.17 0 29.456 0 24.878z" fill="#A259FF"></path><path d="M0 8.293C0 3.715 3.753 0 8.377 0h8.378v16.585H8.377C3.753 16.585 0 12.87 0 8.293z" fill="#F24E1E"></path><path d="M16.755 0h8.377c4.624 0 8.377 3.715 8.377 8.293 0 4.577-3.753 8.292-8.377 8.292h-8.377V0z" fill="#FF7262"></path><path d="M33.51 24.878c0 4.578-3.754 8.293-8.378 8.293-4.624 0-8.377-3.715-8.377-8.293 0-4.578 3.753-8.293 8.377-8.293 4.624 0 8.377 3.715 8.377 8.293z" fill="#1ABCFE"></path>
                 </g>
               </svg>
             </li>
             <li class="icon-list__item">
-              <svg width="16" height="16" viewBox="0 0 50 49" id="adobe-xd">
+              <svg class="is-monochromatic" width="16" height="16" viewBox="0 0 50 49" id="adobe-xd">
                 <g fill-rule="nonzero" fill="none"><path d="M40.945 48.761H8.811C3.939 48.761 0 44.801 0 39.905V8.856C0 3.96 3.939 0 8.811 0h32.134c4.872 0 8.811 3.96 8.811 8.856v31.049c0 4.897-3.939 8.856-8.81 8.856z" fill="#FF26BE"></path><path d="M40.23 46.77H9.547c-4.164 0-7.557-3.41-7.557-7.595V9.586c0-4.185 3.393-7.596 7.557-7.596h30.662c4.184 0 7.557 3.411 7.557 7.596v29.568c.02 4.206-3.373 7.617-7.536 7.617z" fill="#2E001F"></path><path d="M19.498 22.946l5.892 11.256c.105.167.042.334-.126.334h-3.662c-.231 0-.337-.063-.442-.272-1.347-2.761-2.715-5.523-4.124-8.494h-.043a313.886 313.886 0 0 1-3.998 8.515c-.105.168-.21.23-.379.23H9.144c-.21 0-.231-.167-.126-.293l5.766-10.92-5.577-11.047c-.126-.167 0-.293.127-.293h3.62c.21 0 .294.042.378.23a433.42 433.42 0 0 1 3.935 8.39h.042c1.22-2.762 2.567-5.628 3.872-8.369.105-.167.169-.272.379-.272h3.388c.168 0 .231.126.126.293l-5.576 10.712zm6.923 3.41c0-4.875 3.262-8.682 8.439-8.682.442 0 .673 0 1.094.042v-5.544a.21.21 0 0 1 .21-.21h3.325c.169 0 .21.063.21.168v19.205c0 .565 0 1.277.106 2.05 0 .126-.042.168-.168.23a12.596 12.596 0 0 1-5.388 1.214c-4.566.021-7.828-2.782-7.828-8.473zM35.954 21c-.295-.125-.716-.209-1.22-.209-2.652 0-4.504 2.03-4.504 5.398 0 3.85 1.894 5.397 4.272 5.397.505 0 1.052-.062 1.452-.23V21z" fill="#FFD9F2"></path>
                 </g>
               </svg>
@@ -331,7 +388,8 @@
             <label for="4" class="visually-hidden">Your email</label>
             <input id="0" placeholder="Your email" type="email" class="email__input">
             <button class="email__submit button">
-              <span class="email__text">Sign up</span>
+              <span class="email__text email__text--small">Sign up</span>
+              <span class="email__text email__text--large">Get early access</span>
             </button>
           </form>
         </div>
@@ -350,17 +408,106 @@
           </svg>
         </a>
       </div>
-      <div class="page-footer__main-info closed">
-        <button class="m-drawer__content-toggle">
-          <a href="#" class="m-drawer__link m-title">
-            <span class="m-drawer__text m-drawer__text--bold">Features</span>
-          </a>
-          <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
-            <path d="M6 9l6 6 6-6"></path>
-          </svg>
-        </button>
-        <div class="m-drawer__content">
-          <ul class="site-list">
+      <div class="page-footer__main-infos page-footer__main-infos--small">
+        <div class="page-footer__main-info closed">
+          <button class="m-drawer__content-toggle m-drawer__content-toggle--border-top">
+            <a href="#" class="m-drawer__link m-title">
+              <span class="m-drawer__text m-drawer__text--bold">Features</span>
+            </a>
+            <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </button>
+          <div class="m-drawer__content">
+            <ul class="site-list">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                    Dynamic Libraries
+                  </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Continuous Delivery System
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Atomic Hand-off
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="page-footer__main-info closed">
+          <button class="m-drawer__content-toggle">
+            <a href="#" class="m-drawer__link m-title">
+              <span class="m-drawer__text m-drawer__text--bold">Community</span>
+            </a>
+            <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </button>
+          <div class="m-drawer__content">
+            <ul class="site-list">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                    Facebook
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Slack
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Spectrum
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="page-footer__main-info closed">
+          <button class="m-drawer__content-toggle">
+            <a href="#" class="m-drawer__link m-title">
+              <span class="m-drawer__text m-drawer__text--bold">Legal</span>
+            </a>
+            <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </button>
+          <div class="m-drawer__content">
+            <ul class="site-list">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                  Privacy policy
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Terms and services
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__main-infos page-footer__main-infos--large">
+        <div class="page-footer__main-info closed">
+          <h4 class="page-footer__main-info-title">Features</h4>
+          <ul class="site-list site-list--d-footer">
             <li class="site-list__item">
               <a href="/feature/design-system-manager" class="site-list__link">
                   Dynamic Libraries
@@ -378,19 +525,10 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <div class="page-footer__main-info closed">
-        <button class="m-drawer__content-toggle">
-          <a href="#" class="m-drawer__link m-title">
-            <span class="m-drawer__text m-drawer__text--bold">Community</span>
-          </a>
-          <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
-            <path d="M6 9l6 6 6-6"></path>
-          </svg>
-        </button>
-        <div class="m-drawer__content">
-          <ul class="site-list">
+        <div class="page-footer__main-info closed">
+          <h4 class="page-footer__main-info-title">Community</h4>
+          <ul class="site-list site-list--d-footer">
             <li class="site-list__item">
               <a href="/feature/design-system-manager" class="site-list__link">
                   Facebook
@@ -413,19 +551,10 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <div class="page-footer__main-info closed">
-        <button class="m-drawer__content-toggle">
-          <a href="#" class="m-drawer__link m-title">
-            <span class="m-drawer__text m-drawer__text--bold">Legal</span>
-          </a>
-          <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" id="chevron-down">
-            <path d="M6 9l6 6 6-6"></path>
-          </svg>
-        </button>
-        <div class="m-drawer__content">
-          <ul class="site-list">
+        <div class="page-footer__main-info closed">
+          <h4 class="page-footer__main-info-title">Legal</h4>
+          <ul class="site-list site-list--d-footer">
             <li class="site-list__item">
               <a href="/feature/design-system-manager" class="site-list__link">
                 Privacy policy
@@ -441,8 +570,9 @@
                 Contact
               </a>
             </li>
-          </ul>
+            </ul>
         </div>
+
       </div>
 
       <div class="page-footer__secondary-infos">

@@ -18,7 +18,7 @@
   color: rgba(20, 20, 20, 0.64);
 }
 
-.main-section__feature-player {
+.main-section__list {
   margin-top: 48px;
 }
 
@@ -27,8 +27,20 @@
     padding: 80px 64px;
   }
 
+  .main-section__title {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+
   .main-section__subtitle {
     font-size: 22px;
     line-height: 32px;
+  }
+}
+
+@media (min-width: 920px) {
+  .main-section__list {
+    margin-top: 80px;
   }
 }

@@ -39,7 +39,12 @@
 @media (min-width: $tablet-width) {
 
   .form-section {
-    padding: 0 64px;
+    padding: 80px 64px;
+  }
+
+  .form-section__title {
+    font-size: 38px;
+    line-height: 55px;
   }
 
   .form-section__subtitle {

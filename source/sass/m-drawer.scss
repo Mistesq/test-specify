@@ -20,6 +20,10 @@
   border-bottom: 1px solid $gray-border;
 }
 
+.m-drawer__content-toggle--border-top {
+  border-top: 1px solid $gray-border;
+}
+
 .m-drawer__icon {
   position: absolute;
   top: 40%;
