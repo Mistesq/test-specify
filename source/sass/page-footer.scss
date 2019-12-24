@@ -34,6 +34,10 @@
   color: rgba(20, 20, 20, 0.64);
 }
 
+.page-footer__main-infos--large {
+  display: none;
+}
+
 
 @media (min-width: $tablet-width) {
   .page-footer {

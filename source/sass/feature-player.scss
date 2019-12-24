@@ -1,0 +1,9 @@
+.feature-player__visual {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .feature-player__visual {
+    display: block;
+  }
+ }

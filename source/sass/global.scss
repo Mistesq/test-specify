@@ -5,12 +5,14 @@ body {
 
   &::before {
     content: "";
-    display: block;
     position: absolute;
+    z-index: -1;
+
+    display: block;
     width: 100vw;
     height: 100vh;
+
     background-image: linear-gradient(180deg, $gray, #fff);
-    z-index: -1;
   }
 }
 
@@ -32,11 +34,13 @@ a {
 
 .visually-hidden {
   position: absolute;
+
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -45,6 +49,7 @@ a {
 
 h2, h3 {
   margin: 0;
+  
   font-family: 'Roboto', sans-serif;
 }
 

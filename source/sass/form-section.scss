@@ -9,7 +9,9 @@
 }
 
 .form-section__main-content {
+  width: 100%;
   padding: 0 24px;
+  box-sizing: border-box;
 }
 
 .form-section__subtitle {
@@ -31,6 +33,8 @@
   position: relative;
 }
 
+.form-section__visual-wrapper-img {}
+
 .form-section--gray {
   padding-top: 56px;
   background-color: $gray;
@@ -39,7 +43,11 @@
 @media (min-width: $tablet-width) {
 
   .form-section {
-    padding: 80px 64px;
+    padding: 80px 0px;
+  }
+
+  .form-section__main-content {
+    padding: 0 64px;
   }
 
   .form-section__title {
@@ -57,7 +65,4 @@
     line-height: 90px;
   }
 
-  .form-section--head .form-section__subtitle {
-    max-width: 920px;
-  }
 }
